@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'arial', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+#apps{
+    width: 35px;
+    height: 35px;
+}
+#pic{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #333;
+}
+section header ul li a:hover{
+    text-decoration: underline;
+}
+#google{
+    width: 500px;
+}
+#search{
+    width: 20px;
+}
+#mic{
+    width: 20px;
+}
