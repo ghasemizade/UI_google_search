@@ -48,6 +48,7 @@ section header ul li a:hover{
 }
 #google{
     width: 500px;
+    height: 200px;
 }
 #search{
     width: 20px;
@@ -87,4 +88,7 @@ section .main .searchBox .icons{
     justify-content: space-between;
     align-items: center;
     pointer-events: none;
+}
+section .main .buttons{
+    margin: 20px;
 }
